@@ -1,0 +1,22 @@
+-- Install configuration: ""
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch/__pycache__
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/rsp.launch.cpython-310.pyc
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch/__pycache__/launch_sim.launch.cpython-310.pyc
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Installing: /home/diego/dev_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Installing: /home/diego/dev_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Up-to-date: /home/diego/dev_ws/install/my_bot/share/my_bot/package.dsv
+-- Installing: /home/diego/dev_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Installing: /home/diego/dev_ws/install/my_bot/share/my_bot/package.xml

@@ -1,0 +1,33 @@
+[0.006s] Invoking command in '/home/diego/dev_ws/build/my_bot': /usr/bin/cmake /home/diego/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/diego/dev_ws/install/my_bot
+[0.014s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.092s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.095s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.138s] Error parsing '/home/diego/dev_ws/src/my_bot/package.xml':
+[0.166s] Traceback (most recent call last):
+[0.166s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[0.166s]     main()
+[0.166s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[0.166s]     raise e
+[0.166s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[0.166s]     package = parse_package_string(
+[0.166s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 788, in parse_package_string
+[0.166s]     pkg.validate(warnings=warnings)
+[0.166s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 330, in validate
+[0.166s]     raise InvalidPackage('\n'.join(errors), self.filename)
+[0.166s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/diego/dev_ws/src/my_bot/package.xml':
+[0.166s] The package "my_bot" must not "exec_depend" on a package with the same name as this package
+[0.174s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[0.174s]   execute_process(/usr/bin/python3
+[0.174s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.174s]   /home/diego/dev_ws/src/my_bot/package.xml
+[0.175s]   /home/diego/dev_ws/build/my_bot/ament_cmake_core/package.cmake) returned
+[0.175s]   error code 1
+[0.175s] Call Stack (most recent call first):
+[0.175s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.175s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.175s]   CMakeLists.txt:23 (ament_lint_auto_find_test_dependencies)
+[0.175s] 
+[0.175s] [0m
+[0.175s] -- Configuring incomplete, errors occurred!
+[0.175s] See also "/home/diego/dev_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[0.176s] Invoked command in '/home/diego/dev_ws/build/my_bot' returned '1': /usr/bin/cmake /home/diego/dev_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/diego/dev_ws/install/my_bot
